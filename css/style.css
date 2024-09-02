@@ -94,7 +94,7 @@ li {
     background-color: #cc0000;
 }
 
-.done {
+.svolto {
     text-decoration: line-through;
     color: grey;
 }

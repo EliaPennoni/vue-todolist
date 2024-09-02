@@ -21,7 +21,7 @@
             </div>
             <ul>
                 <li v-for="(li, index) in myArray" :key="index">
-                    <span :class="{done: li.done}" @click="li.toggleDone()">{{li.text}}</span>
+                    <span :class="{svolto: li.done}" @click="li.toggleDone()">{{li.text}}</span>
                     <div class="bottoni">
                         <button @click="taskEseguito(index)" class="executed">done</button>
                         <button @click="eliminaOggetto(index)" class="delete">delete</button>
